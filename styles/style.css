@@ -61,8 +61,7 @@ li a{
 /* hero section style */
 .hero-section{
     max-width: 1360px;
-    margin: 0 auto;
-    height: 100vh;
+    margin: 120px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +97,7 @@ li a{
 /* sponsolr section style */
 .sponsor-section{
     max-width: 1360px;
-    margin: 100px auto;
+    margin: 120px auto;
     text-align: center;
 }
 
@@ -207,6 +206,31 @@ li a{
     font-weight: 700;
     margin-bottom: 16px;
 }
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 239px;
+    background-color: rgba(10, 8, 38, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+footer h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer p{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.icons i{
+    margin: 20px 10px 0px 10px;
+}
+
 
 
 
